@@ -8,9 +8,7 @@ class Dog
     @@all << self
   end
   
-  def self.clear_all
-    @@all.clear
-  end
+ 
 
   def self.print_all(dogs)
      dogs.each do |name|
@@ -21,6 +19,8 @@ class Dog
    def save
      @save << @@all
    end
+   
+   
  
     
 end
