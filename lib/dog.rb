@@ -8,6 +8,10 @@ class Dog
     @@all << self
   end
   
+  def self.all
+    @@all
+  end
+  
   def self.print_all(dog)
      @@all.each do |name|
      puts dog.name
