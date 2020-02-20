@@ -8,8 +8,6 @@ class Dog
     @@all << self
   end
   
- 
-
   def self.print_all(dogs)
      dogs.each do |name|
      puts "#{name}"
