@@ -21,9 +21,6 @@ class Dog
    def save
      @save << @@all
    end
-   
-   def clear_all
-     clear(@@all)
-   end
+ 
     
 end
